@@ -1,32 +1,32 @@
 * {
   box-sizing: border-box;
 }
-.mainbgdiv{
-  /* background-color: red; */
-  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);;
+.mainbgdiv {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
   height: 100vh;
 }
-.maincont{
-  /* margin-top: 130px; */
-  /* background-color: red; */
-  padding-top:10px;
-padding-bottom: auto;
-margin-top: 70px;
+.maincont {
+  padding-top: 10px;
+  padding-bottom: auto;
+  margin-top: 70px;
 }
-.hint{
+.hint {
   text-align: center;
-  color:#256D85;
+  color: #d0c9c0;
   font-weight: 600;
   font-size: 17px;
-  
- }
+  background-color: #541212;
+  width: 45%;
+  margin: auto;
+  padding-top: 20px;
+  border-radius: 15px 15px 0px 0px;
+}
 .btn-cont {
   width: 45%;
   margin: auto;
- border: 5px solid #0F0E0E ;
+  border: 5px solid #0f0e0e;
   border-top: none;
-  background-color: #BCCC9A;
-  
+  background-color: #bccc9a;
 }
 .timerlogo {
   width: 27px;
@@ -34,11 +34,10 @@ margin-top: 70px;
 .titlediv {
   text-align: center;
   padding-top: 5px;
-  color: #E2DCC8;
- 
+  color: #e2dcc8;
 }
-.title{
-    color:#F54748;
+.title {
+  color: #f54748;
 }
 
 .time {
@@ -49,19 +48,19 @@ margin-top: 70px;
   color: #ffffff;
 }
 
-.timediv > p{
-    color:#F15412;
+.timediv > p {
+  color: #f15412;
 }
 .time > span {
   font-size: 40px;
- }
+}
 
 .btn-div {
   width: 20%;
   margin-left: 40px;
   padding: 5px 10px;
-  background-color: #0F0E0E;
-  border-radius: 0px 0px 15px 15px
+  background-color: #0f0e0e;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .btn-div > button {
@@ -71,10 +70,10 @@ margin-top: 70px;
   border-radius: 5px;
 }
 .btn1 {
-  background-color: #BAFFB4;
+  background-color: #baffb4;
 }
 .btn2 {
-  background-color: #FFFDA2;
+  background-color: #fffda2;
 }
 
 .ipdiv {
@@ -82,12 +81,10 @@ margin-top: 70px;
   margin: auto;
   padding: 5px 10px;
   background-color: #541212;
-  border-radius: 15px 15px 0px 0px
-  
 }
-.iptext{
-    font-size: 15px;
-    font-weight:200;
+.iptext {
+  font-size: 20px;
+  font-weight: bold;
 }
 .ipdiv_small {
   text-align: center;
@@ -99,17 +96,16 @@ margin-top: 70px;
 }
 .ipdiv_small > input {
   height: 29px;
-  background-color:#EEEEEE;
-  color:black;
+  background-color: #eeeeee;
+  color: black;
   border: none;
   border-radius: 5px;
-
 }
-::placeholder{
-    color: black;
-    padding:2px;
-    font-size: 14.5px;
-    font-weight: 500;
+::placeholder {
+  color: black;
+  padding: 2px;
+  font-size: 14.5px;
+  font-weight: 500;
 }
 
 @media (max-width: 480px) {
@@ -136,11 +132,23 @@ margin-top: 70px;
   .ipdiv_small > button {
     padding: 1.5px 10px;
   }
-  .iptext{
+  .iptext {
     font-size: 8px;
-}
-.time > span{
+  }
+  .time > span {
     font-size: 25px;
+  }
+  .hint {
+    padding-top: 6px 1px;
+    font-size: 7px;
+  }
+  .iptext {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .ipdiv_small > input {
+    width: 90%;
+    height: 20px;
   }
 }
 
@@ -153,7 +161,7 @@ margin-top: 70px;
     padding-top: 10px;
     margin: auto;
   }
- .btn-div > button {
+  .btn-div > button {
     padding: 10px 30px;
     margin-left: 8px;
   }

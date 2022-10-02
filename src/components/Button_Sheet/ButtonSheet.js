@@ -14,14 +14,11 @@ const ButtonSheet = (props) => {
         <div className="modal-content ">
           <div className="modal-header">
             <h5 className="modal-title">Cities Name</h5>
-           
           </div>
           <div className="modal-body">
-           
-             {props.data.map((element,i)=>(
-                <p key={i}>{element.name}</p>
-             ))}
-          
+            {props.data.map((element, i) => (
+              <p key={i}>{element.name}</p>
+            ))}
           </div>
           <div className="modal-footer modal-footer-fixed d-none">
             <button

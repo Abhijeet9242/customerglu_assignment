@@ -29,7 +29,7 @@
   height: 318px;
   border-radius: 6px;
   margin: 15px;
-  background-color: #54BAB9;
+  background-color: #54bab9;
   padding-top: 9px;
   cursor: pointer;
 }
@@ -54,5 +54,4 @@
 .hometitlediv > p {
   text-align: center;
   font-size: 25px;
-  /* color: #9EB23B; */
 }

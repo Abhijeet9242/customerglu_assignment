@@ -1,11 +1,8 @@
-// import React, { useEffect } from "react";
-import "./Count_Down.css"
-// import { useState } from "react";
+import "./Count_Down.css";
 
 const Count_Down = (props) => {
   return (
     <>
-   
       <div className="btn-cont">
         <div className="titlediv">
           <h1 className="title">
@@ -20,14 +17,11 @@ const Count_Down = (props) => {
         <hr />
 
         <div className="timediv">
-        <p className="time">
-          {props.time}
-          <span>s</span>
-        </p>
+          <p className="time">
+            {props.time}
+            <span>s</span>
+          </p>
         </div>
-        
-
-        {/* <hr /> */}
       </div>
     </>
   );

@@ -1,23 +1,13 @@
-
-.btnsheet_btn{
-    display: block;
-    /* width:100px; */
-    /* height:0px; */
-    padding: 10px 14px;
-    margin:10px auto;
-    border:none;
-    background-color:#4B5D67;
-    color:#F6FBF4;
-    font-weight: bold;
-    cursor: pointer;
-   
+.btnsheet_btn {
+  display: block;
+  padding: 10px 14px;
+  margin: 10px auto;
+  border: none;
+  background-color: #4b5d67;
+  color: #f6fbf4;
+  font-weight: bold;
+  cursor: pointer;
 }
-.btnsheet_btn:hover{
-    box-shadow: 10px 5px 5px #4B5D67;
+.btnsheet_btn:hover {
+  box-shadow: 10px 5px 5px #4b5d67;
 }
-
-/* bootstrap */
-
-
-
-
