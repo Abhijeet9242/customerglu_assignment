@@ -39,12 +39,13 @@ const Parent_CountDown = () => {
 
   const handlePaused = () => {
     setStatusPaused(!isStatuspaused);
+    inputRef.current.value = "";
   };
 
   const handleReset = () => {
     setStatusActive(false);
-
     setTime(timeLimit);
+    inputRef.current.value = "";
   };
 
   const handleTimeLimit = (e) => {
