@@ -2,6 +2,7 @@ import Count_Down from "./Count_Down";
 import "./Count_Down.css";
 import { useState, useEffect, useRef } from "react";
 import Navbar from "../Navbar/Navbar";
+import "./Parent_CountDown.css"
 
 const Parent_CountDown = () => {
   const timeLimit = 60;
