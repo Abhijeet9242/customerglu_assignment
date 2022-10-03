@@ -14,21 +14,25 @@ const Parent_ButtonSheet = () => {
   const handleHide = () => {
     setShow(false);
   };
-  
+
+  const handleToggling = (show) => {
+    if (show) handleHide();
+  };
 
   return (
     <>
       <Navbar />
-      <div className="main_parentbtnsheetdiv">
-        <div
-          className="parentbtnsheetdiv"
-          onClick={show === true ? handleHide : ""}
-        >
+      <div
+        className={show ? "parentbtnsheetdiv bluring" : "parentbtnsheetdiv"}
+        onClick={() => handleToggling(show)}
+      >
+        <div className="ac">
+          <div className="spacing">.</div>
           <button className="btn_opensheet" onClick={handleShowClick}>
-            {show ? "Close ButtonSheet" : "Show ButtonSheet"}
+            Open ButtonSheet
           </button>
 
-          <ButtonSheet show={show} onHide={handleHide}>
+          <ButtonSheet show={show} >
             <h3>Cities Name</h3>
             <hr />
             <div>Bangalore</div>
